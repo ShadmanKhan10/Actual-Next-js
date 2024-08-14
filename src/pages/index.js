@@ -11,11 +11,14 @@
 
 // src/pages/index.js
 import React from "react";
+import Component1 from "../Components/Component1";
 
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to the Home Page</h1>
+      <h1>Component 1</h1>
+      <Component1 />
+      <Component1 />
     </div>
   );
 }
